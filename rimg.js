@@ -510,7 +510,7 @@
         function getExtension(value){
             //find the extension of the value (URL)
             if(value){
-                return value.substr(value.lastIndexOf('.') + 1).toLowerCase();
+                return value.substr(value.lastIndexOf('.') + 1);
             }
             return null;
         }
